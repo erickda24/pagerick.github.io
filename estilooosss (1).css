@@ -1,0 +1,28 @@
+body{
+    font-family: fantasy;
+    background: 
+    background:url(5.jfif);
+}
+.menu{
+list-style: none;
+padding: 0;
+background: #19ad0c;
+width: 90%;
+max-width: 100px;
+margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 70px;
+    display: block;
+}
+.menu li{
+display:inline-block;
+text-align: center;
+}
+.menu li a:hover{
+    background: #d44b1d;
+}
+

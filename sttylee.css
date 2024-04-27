@@ -1,0 +1,52 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Kawaii */
+.kawaii-heading {
+    font-family: 'Comic Sans MS', cursive; /* Fuente redondeada */
+    color: #d82626; /* Rojo suave */
+}
+
+.kawaii-text {
+    font-family: 'Arial', sans-serif;
+    color: #a05ca5; /* Púrpura suave */
+}
+
+header {
+    background-color: #ffd699; /* Amarillo pastel */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #a1c9f4; /* Azul pastel */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #bdc3c7; /* Gris pastel */
+    color: #34495e; /* Azul grisáceo */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

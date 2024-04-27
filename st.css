@@ -1,0 +1,38 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #58e28d;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #db1233; /* Color rosado */
+    border: 4px solid #2e0dc0; /* Borde rosa más oscuro */
+    border-radius: 10px;
+}
+
+header {
+    background-color: #69fff8; /* Color de fondo del encabezado */
+    color: #131010;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 4px solid #e21870; /* Borde inferior más oscuro */
+}
+
+.content {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* Agregar líneas de margen gruesas */
+.container, header, .content {
+    border-left: 8px solid #b42965; /* Línea de margen izquierda */
+    border-right: 8px solid #ce779d; /* Línea de margen derecha */
+}
